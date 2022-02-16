@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T08:41:53.978Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="2s4M2sVNJ7VDA8EJZUJf" version="16.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-16T09:00:45.275Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="bXdtYOKXs8tCcqJqgZhP" version="16.4.2" type="github">
   <diagram id="Ildqp1aMHtca3IxJoDbj" name="Page-1">
     <mxGraphModel dx="2125" dy="1978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,10 +17,10 @@
           <mxGeometry x="600" y="40" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="C43YzUT8gkVhzgyNNNPK-39" value="云api ·基本参数校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="107" y="220" width="720" height="40" as="geometry" />
+          <mxGeometry x="107" y="180" width="720" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="C43YzUT8gkVhzgyNNNPK-40" value="prometheus-cloud" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="107" y="300" width="720" height="40" as="geometry" />
+        <mxCell id="C43YzUT8gkVhzgyNNNPK-40" value="prometheus-cloud 核心支撑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="490" y="290" width="523" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C43YzUT8gkVhzgyNNNPK-45" value="jns-gw" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="380" width="720" height="40" as="geometry" />
@@ -261,6 +261,24 @@
         </mxCell>
         <mxCell id="C43YzUT8gkVhzgyNNNPK-137" value="内网 clb：global-query&lt;br&gt;外网clb：&amp;nbsp;global-query-internet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="400" y="494.5" width="170" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="C43YzUT8gkVhzgyNNNPK-140" value="internal-&lt;br&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22prometheus-cloud%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22400%22%20y%3D%22270%22%20width%3D%22523%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;grafana-&lt;br&gt;proxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C43YzUT8gkVhzgyNNNPK-144" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="C43YzUT8gkVhzgyNNNPK-141" target="C43YzUT8gkVhzgyNNNPK-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C43YzUT8gkVhzgyNNNPK-141" value="sentinel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="203" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="C43YzUT8gkVhzgyNNNPK-142" value="monitor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="203" y="300" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="C43YzUT8gkVhzgyNNNPK-143" value="recover" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C43YzUT8gkVhzgyNNNPK-145" value="role-query" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="490" y="225" width="523" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
