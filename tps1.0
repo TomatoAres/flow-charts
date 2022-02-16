@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T08:35:06.187Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="H1TrI2m0wnR2dgD27MJy" version="16.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-16T08:37:53.024Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="w_8Tf3upUCHeZNaOIQZu" version="16.4.2" type="github">
   <diagram id="Ildqp1aMHtca3IxJoDbj" name="Page-1">
     <mxGraphModel dx="2125" dy="1978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
           <mxGeometry x="110" y="624" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="C43YzUT8gkVhzgyNNNPK-55" value="pod·grafana" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="520" width="80" height="30" as="geometry" />
+          <mxGeometry x="100" y="532" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C43YzUT8gkVhzgyNNNPK-56" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="534" width="240" height="150" as="geometry" />
@@ -68,7 +68,7 @@
           <mxGeometry x="400" y="634" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="C43YzUT8gkVhzgyNNNPK-59" value="pod·thanos-query" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="520" width="120" height="30" as="geometry" />
+          <mxGeometry x="390" y="532" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C43YzUT8gkVhzgyNNNPK-62" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -104,7 +104,7 @@
           <mxGeometry x="731" y="617" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="C43YzUT8gkVhzgyNNNPK-70" value="pod·thanos-rule" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="520" width="120" height="30" as="geometry" />
+          <mxGeometry x="720" y="532" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C43YzUT8gkVhzgyNNNPK-72" value="rules-reload" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="731" y="657" width="160" height="40" as="geometry" />
@@ -246,6 +246,12 @@
             <mxPoint x="-80" y="1590" as="sourcePoint" />
             <mxPoint x="1000" y="1590" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="C43YzUT8gkVhzgyNNNPK-136" value="内网 clb：grafana&lt;br&gt;外网clb： grafana-internet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="115" y="494.5" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="C43YzUT8gkVhzgyNNNPK-137" value="内网 clb：global-query&lt;br&gt;外网clb：&amp;nbsp;global-query-internet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="400" y="494.5" width="170" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
