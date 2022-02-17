@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T07:28:45.656Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="EQ0kowPrKYLO9R1sJ41S" version="16.4.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-02-17T08:15:03.498Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="7PLLUsgscqORIT_qp7HT" version="16.4.2" type="github" pages="5">
   <diagram id="Ildqp1aMHtca3IxJoDbj" name="Page-1">
-    <mxGraphModel dx="2063" dy="1885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2063" dy="1939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,11 +22,8 @@
         <mxCell id="C43YzUT8gkVhzgyNNNPK-40" value="prometheus-cloud 核心支撑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="404.5" y="275" width="523" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C43YzUT8gkVhzgyNNNPK-45" value="jns-gw" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="380" width="720" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="C43YzUT8gkVhzgyNNNPK-46" value="GatewayEndpoint" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="430" width="720" height="40" as="geometry" />
+        <mxCell id="C43YzUT8gkVhzgyNNNPK-45" value="jns-gw: GatewayEndpoint" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="410" width="720" height="40" as="geometry" />
         </mxCell>
         <mxCell id="C43YzUT8gkVhzgyNNNPK-49" value="内网 clb：prometheus-agent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="260" y="1330" width="503" height="30" as="geometry" />
